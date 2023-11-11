@@ -1,0 +1,25 @@
+/* BarrageItem.css */
+.barrage-item {
+    position: absolute;
+    white-space: nowrap;
+    font-size: 16px;
+    color: #666;
+    cursor: pointer;
+    animation-duration: 10s; /* Adjust the duration as needed */
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  
+  .barrage-item.completed {
+    animation-play-state: paused;
+  }
+  
+  @keyframes moveRightToLeft {
+    from {
+      transform: translateX(100vw);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  

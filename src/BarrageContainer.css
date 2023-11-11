@@ -1,0 +1,17 @@
+/* BarrageContainer.css */
+.barrage-container {
+    position: relative;
+    overflow: hidden;
+    height: 100vh; /* Full screen height */
+  }
+  
+  .barrage-container.half-screen {
+    height: 50vh; /* Half screen height */
+  }
+  
+  .barrage-container.multi-row {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr); /* Adjust the number of rows as needed */
+    height: 100vh; /* Full screen height */
+  }
+  
